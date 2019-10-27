@@ -1,0 +1,50 @@
+{
+    "type":"MCU",
+    "name":"CH32L103",
+    "title": "WCH MCU CH32L103",
+    "description":"WCH RISC-V4C USB+PD MCU",
+    "version":"1.1.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V4C",
+        "Freq": 96,
+        "DMIPS": 100,
+        "CoreMark": 160
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH32L103.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH32L103.git"
+    },
+    "series":["CH32L103"],
+    "package":["TSSOP20","QFN20","QSOP28","QFN32","LQFP48"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[14,18],
+    "PWR": {
+        "VDD": [2800,5000],
+        "Ivdd": 3.5,
+        "LDO": [5000,3300],
+        "rate": 1024
+    },
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "RISC-V",
+        "RISC-V4C",
+        "WCH",
+        "CH32L103",
+        "USB-PD","NFC","BLE","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
