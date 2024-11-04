@@ -7,6 +7,8 @@
 
 [CH32L103](https://www.wch.cn/products/CH32L103.html)系列是基于青稞RISC-V内核设计的工业级低功耗通用微控制器。CH32L103内置USB和PD PHY，支持PDUSB，包括USB Host主机和USB Device设备功能、USB PD及Type-C快充功能，内置低功耗定时器，提供了1 组 OPA 运放、多组CMP电压比较器、4组USART串口、2个I2C接口、2个SPI接口、1组CAN 接口、多组定时器、12位ADC、10路Touchkey 等丰富外设资源。 
 
+[![sites](docs/ch32l103.jpg)](http://www.wch.cn/products/CH32L103.html)
+
 ``` mermaid
 gantt
     title CH32L103 SDK
@@ -30,7 +32,7 @@ gantt
 * 1个32位通用定时器
 * 2个看门狗定时器（独立和窗口）
 * 1个系统时基定时器
-* 4组USART串口：支持LIN和ISO7816
+* 4x USART：支持LIN和ISO7816，≤ 6Mbps
 * 2个I2C接口：支持SMBus/PMBus
 * 2个SPI接口
 * 1组CANFD接口（2.0B主动）
@@ -49,3 +51,5 @@ gantt
 ## [选型建议](https://github.com/SoCXin)
 
 [CH32L103](https://github.com/SoCXin/CH32L103) 
+
+相对[CH32X035](https://www.wch.cn/products/CH32X035.html)主频从48MHz提高到96MHz

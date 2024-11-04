@@ -22,7 +22,7 @@
     "series":["CH32L103"],
     "package":["TSSOP20","QFN20","QSOP28","QFN32","LQFP48"],
     "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
-    "price":[14,18],
+    "price":[2,6],
     "PWR": {
         "VDD": [2800,5000],
         "Ivdd": 3.5,
