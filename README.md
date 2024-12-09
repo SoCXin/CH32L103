@@ -1,7 +1,7 @@
 ﻿# [CH32L103](https://github.com/SoCXin/CH32L103)
 
-* [WCH](http://www.wch.cn/)：[RISC-V](https://github.com/SoCXin/RISC-V)
-* [L1R1](https://github.com/SoCXin/Level): 96 MHz 
+* [WCH](http://www.wch.cn/)：[RISC-V4C](https://github.com/SoCXin/RISC-V)
+* [L1R1](https://github.com/SoCXin/Level)：96 MHz , [￥3.31](https://item.szlcsc.com/24011553.html)
 
 ## [简介](https://github.com/SoCXin/CH32L103/wiki)
 
@@ -11,10 +11,10 @@
 
 ``` mermaid
 gantt
-    title CH32L103 SDK
+    title CH32L103 EVT
     dateFormat  YYYY-MM-DD
     section Mainline Release
-    v1.0           :a1, 2024-06-01, 2024-09-30
+    v1.3           :a1, 2024-11-07, 2024-12-12
 ```
 
 ### 关键特性
@@ -52,4 +52,5 @@ gantt
 
 [CH32L103](https://github.com/SoCXin/CH32L103) 
 
-相对[CH32X035](https://www.wch.cn/products/CH32X035.html)主频从48MHz提高到96MHz
+* 相对[CH32X035](https://www.wch.cn/products/CH32X035.html)主频从48MHz提高到96MHz
+* 相比[CH32V208](https://www.wch.cn/products/CH32V208.html)拥有更高的性价比和USB-PD PHY
